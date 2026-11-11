@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jelajah Nusantara - Wisata Indonesia</title>
+    <link rel="stylesheet" href="file.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div class="container navbar">
+            <h1 class="logo">Jelajah<span>Nusantara</span></h1>
+            <nav>
+                <a href="#beranda">Beranda</a>
+                <a href="#destinasi">Destinasi</a>
+                <a href="#tentang">Tentang</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="beranda">
+            <div class="hero-content">
+                <p class="eyebrow">Pesona wisata Indonesia</p>
+                <h2>Temukan Tempat Baru,<br> Ciptakan Cerita Baru.</h2>
+                <p>Jelajahi keindahan alam dan tempat menarik di berbagai daerah Indonesia.</p>
+                <a class="button" href="#destinasi">Lihat Destinasi</a>
+            </div>
+        </section>
+
+        <section class="container destinations" id="destinasi">
+            <div class="section-heading">
+                <p class="eyebrow">Pilihan untuk dikunjungi</p>
+                <h2>Destinasi Wisata</h2>
+                <p>Beberapa tempat menarik untuk memulai perjalananmu.</p>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="Pemandangan alam pegunungan">
+                    <div class="card-content">
+                        <h3>Gunung Bromo</h3>
+                        <p>Menikmati pemandangan pegunungan dan suasana matahari terbit.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=85" alt="Pemandangan pantai dan laut">
+                    <div class="card-content">
+                        <h3>Raja Ampat</h3>
+                        <p>Menjelajahi laut jernih dan keindahan pulau-pulau tropis.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=85" alt="Bangunan dan suasana wisata budaya">
+                    <div class="card-content">
+                        <h3>Bali</h3>
+                        <p>Mengenal budaya, pantai, dan suasana alam yang beragam.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="tentang">
+            <div class="container about-content">
+                <h2>Tentang Jelajah Nusantara</h2>
+                <p>Jelajah Nusantara adalah website sederhana yang memberikan informasi dan inspirasi tentang destinasi wisata di Indonesia.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jelajah Nusantara. Semua hak dilindungi.</p>
+    </footer>
 </body>
 </html>
